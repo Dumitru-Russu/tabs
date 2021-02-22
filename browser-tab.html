@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser tab</title>
+    <style>
+        .tabs {
+            list-style: none;
+            padding: 10px;
+            margin: 20px;
+        }
+        .tabs-item {
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 20px 10px;
+            margin: 5px;
+            text-align: center;
+            transition: 0.35s;
+            height: 90px;
+        }
+        .tabs-item:hover {
+            background-color: #cccccc;
+        }
+        .tabs-img {
+            margin-bottom: 20px;
+        }
+        .tabs-link {
+            text-decoration: none;
+            color: darkslategray;
+        }
+        .tabs-options {
+            font-size: 40px;
+            line-height: 7px;
+            background-color: #999999;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            opacity: 0.0;
+            transform: translateX(68px) translateY(-110px);
+            transition: 0.2s;
+        }
+        .tabs-options:hover {
+            opacity: 1.0;
+        }
+        .dots {
+            text-decoration: none;
+            color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+    <ul class="tabs">
+        <li class="tabs-item"
+            title="access your account "
+        >
+            <a class="tabs-link" href="URL">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/48/Github-icon.png" alt="git">
+                <br>
+                username_here
+            </a>
+            <div class="tabs-options">
+                <a class="dots" href="URL">.<br>.<br>.</a>
+            </div>
+        </li>
+        <li class="tabs-item"
+        title="access your account "
+    >
+        <a class="tabs-link" href="URL">
+            <img class="tabs-img" src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/YouTube-icon.png" alt="youtube">
+            <br>
+            username_here
+        </a>
+        <div class="tabs-options">
+            <a class="dots" href="URL">.<br>.<br>.</a>
+        </div>
+    </li>
+    <li class="tabs-item"
+    title="access your account "
+>
+    <a class="tabs-link" href="URL">
+        <img class="tabs-img" src="https://icons.iconarchive.com/icons/danleech/simple/48/facebook-icon.png" alt="facebook">
+        <br>
+        username_here
+    </a>
+    <div class="tabs-options">
+        <a class="dots" href="URL">.<br>.<br>.</a>
+    </div>
+</li>
+    </ul>
+</body>
+</html>
